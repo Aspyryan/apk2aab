@@ -61,7 +61,7 @@ Copy assets and lib folder from original decompile
 Copy contents of unknown to root/_
 Copy all .dex files to dex/_
 Final base directory structure should resemble:
-base/
+```base/
 ├── assets/
 ├── dex/
 ├── lib/
@@ -71,6 +71,7 @@ base/
 ├── root/
 │ └── (unknown files, kotlin folder)
 └── resources.pb
+```
 
 ### Zip contents
 `jar cMf base.zip manifest dex res root lib assets resources.pb`
